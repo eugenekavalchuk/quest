@@ -1,0 +1,290 @@
+answers:
+  - id: 1
+    text: "Грифиндор"
+    nextQuestionId: 2
+    gryffindor: 1.03
+    hufflepuff: 1.02
+    ravenclaw: 1.01
+    slytherin: 1.00
+  - id: 2
+    text: "Слизерин"
+    nextQuestionId: 2
+    gryffindor: 1.00
+    hufflepuff: 1.01
+    ravenclaw: 1.01
+    slytherin: 1.03
+  - id: 3
+    text: "Когтевран"
+    nextQuestionId: 2
+    gryffindor: 1.01
+    hufflepuff: 1.02
+    ravenclaw: 1.03
+    slytherin: 1.01
+  - id: 4
+    text: "Пуффендуй"
+    nextQuestionId: 2
+    gryffindor: 1.02
+    hufflepuff: 1.03
+    ravenclaw: 1.02
+    slytherin: 1.01
+
+  - id: 5
+    text: "Книги, игры, фильмы"
+    nextQuestionId: 3
+    gryffindor: 1.01
+    hufflepuff: 1.02
+    ravenclaw: 1.03
+    slytherin: 1.01
+  - id: 6
+    text: "Бывать одному"
+    nextQuestionId: 3
+    gryffindor: 1.00
+    hufflepuff: 1.00
+    ravenclaw: 1.01
+    slytherin: 1.02
+  - id: 7
+    text: "Проводить время с другими"
+    nextQuestionId: 3
+    gryffindor: 1.02
+    hufflepuff: 1.03
+    ravenclaw: 1.01
+    slytherin: 1.02
+  - id: 8
+    text: "Спорт и достижения"
+    nextQuestionId: 3
+    gryffindor: 1.02
+    hufflepuff: 1.01
+    ravenclaw: 1.01
+    slytherin: 1.04
+
+  - id: 9
+    text: "Гиппогриф"
+    nextQuestionId: 4
+    gryffindor: 1.03
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.00
+  - id: 10
+    text: "Единорог"
+    nextQuestionId: 4
+    gryffindor: 1.01
+    hufflepuff: 1.03
+    ravenclaw: 1.02
+    slytherin: 1.01
+  - id: 11
+    text: "Дракон"
+    nextQuestionId: 4
+    gryffindor: 1.02
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.03
+  - id: 12
+    text: "Феникс"
+    nextQuestionId: 4
+    gryffindor: 1.03
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.01
+
+  - id: 13
+    text: "Учиться на ходу"
+    nextQuestionId: 5
+    gryffindor: 1.03
+    hufflepuff: 1.01
+    ravenclaw: 1.00
+    slytherin: 1.02
+  - id: 14
+    text: "Работа в команде"
+    nextQuestionId: 5
+    gryffindor: 1.03
+    hufflepuff: 1.03
+    ravenclaw: 1.01
+    slytherin: 1.00
+  - id: 15
+    text: "Самостоятельно"
+    nextQuestionId: 5
+    gryffindor: 1.02
+    hufflepuff: 1.01
+    ravenclaw: 1.03
+    slytherin: 1.05
+  - id: 16
+    text: "Наствничество и менторство"
+    nextQuestionId: 5
+    gryffindor: 1.02
+    hufflepuff: 1.03
+    ravenclaw: 1.02
+    slytherin: 1.03
+
+  - id: 17
+    text: "Чувствуешь себя лидером"
+    nextQuestionId: 6
+    gryffindor: 1.03
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.04
+  - id: 18
+    text: "Помогаешь другим"
+    nextQuestionId: 6
+    gryffindor: 1.03
+    hufflepuff: 1.05
+    ravenclaw: 1.02
+    slytherin: 1.00
+  - id: 19
+    text: "Находишь решения"
+    nextQuestionId: 6
+    gryffindor: 1.02
+    hufflepuff: 1.01
+    ravenclaw: 1.04
+    slytherin: 1.03
+  - id: 20
+    text: "Вдохновляешь других"
+    nextQuestionId: 6
+    gryffindor: 1.03
+    hufflepuff: 1.02
+    ravenclaw: 1.01
+    slytherin: 1.00
+
+  - id: 21
+    text: "Смелость"
+    nextQuestionId: 7
+    gryffindor: 1.04
+    hufflepuff: 1.03
+    ravenclaw: 1.02
+    slytherin: 1.01
+  - id: 22
+    text: "Доброта"
+    nextQuestionId: 7
+    gryffindor: 1.02
+    hufflepuff: 1.05
+    ravenclaw: 1.02
+    slytherin: 1.00
+  - id: 23
+    text: "Интеллект"
+    nextQuestionId: 7
+    gryffindor: 1.03
+    hufflepuff: 1.02
+    ravenclaw: 1.05
+    slytherin: 1.03
+  - id: 24
+    text: "Амбициозность"
+    nextQuestionId: 7
+    gryffindor: 1.03
+    hufflepuff: 1.02
+    ravenclaw: 1.02
+    slytherin: 1.05
+
+  - id: 25
+    text: "Лето"
+    nextQuestionId: 8
+    gryffindor: 1.01
+    hufflepuff: 1.02
+    ravenclaw: 1.00
+    slytherin: 1.00
+  - id: 26
+    text: "Весна"
+    nextQuestionId: 8
+    gryffindor: 1.01
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.01
+  - id: 27
+    text: "Осень"
+    nextQuestionId: 8
+    gryffindor: 1.01
+    hufflepuff: 1.02
+    ravenclaw: 1.02
+    slytherin: 1.01
+  - id: 28
+    text: "Зима"
+    nextQuestionId: 8
+    gryffindor: 1.00
+    hufflepuff: 1.02
+    ravenclaw: 1.01
+    slytherin: 1.03
+
+  - id: 29
+    text: "Магической силе"
+    nextQuestionId: 9
+    gryffindor: 1.03
+    hufflepuff: 1.01
+    ravenclaw: 1.02
+    slytherin: 1.05
+  - id: 30
+    text: "Исцелении"
+    nextQuestionId: 9
+    gryffindor: 1.01
+    hufflepuff: 1.04
+    ravenclaw: 1.04
+    slytherin: 1.01
+  - id: 31
+    text: "Телепатии"
+    nextQuestionId: 9
+    gryffindor: 1.02
+    hufflepuff: 1.01
+    ravenclaw: 1.03
+    slytherin: 1.04
+  - id: 32
+    text: "Предвиденьи"
+    nextQuestionId: 9
+    gryffindor: 1.02
+    hufflepuff: 1.04
+    ravenclaw: 1.00
+    slytherin: 1.01
+
+  - id: 33
+    text: "Спортивный и удобный"
+    nextQuestionId: 10
+    gryffindor: 1.01
+    hufflepuff: 1.02
+    ravenclaw: 1.03
+    slytherin: 1.03
+  - id: 34
+    text: "Повседневный и уютный"
+    nextQuestionId: 10
+    gryffindor: 1.02
+    hufflepuff: 1.02
+    ravenclaw: 1.01
+    slytherin: 1.01
+  - id: 35
+    text: "Классический и интеллигентный"
+    nextQuestionId: 10
+    gryffindor: 1.01
+    hufflepuff: 1.00
+    ravenclaw: 1.03
+    slytherin: 1.04
+  - id: 36
+    text: "Модный и стильный"
+    nextQuestionId: 10
+    gryffindor: 1.02
+    hufflepuff: 1.00
+    ravenclaw: 1.03
+    slytherin: 1.04
+
+  - id: 37
+    text: "Сила и власть"
+    nextQuestionId: 11
+    gryffindor: 1.02
+    hufflepuff: 1.00
+    ravenclaw: 1.02
+    slytherin: 1.04
+  - id: 38
+    text: "Мудрость и знание"
+    nextQuestionId: 11
+    gryffindor: 1.01
+    hufflepuff: 1.01
+    ravenclaw: 1.05
+    slytherin: 1.03
+  - id: 39
+    text: "Верность и дружба"
+    nextQuestionId: 11
+    gryffindor: 1.03
+    hufflepuff: 1.04
+    ravenclaw: 1.02
+    slytherin: 1.01
+  - id: 40
+    text: "Смелость и честь"
+    nextQuestionId: 11
+    gryffindor: 1.04
+    hufflepuff: 1.03
+    ravenclaw: 1.03
+    slytherin: 1.01
