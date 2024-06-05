@@ -63,6 +63,14 @@
             background: rgba(69, 75, 45, 1);
             color: white;
         }
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +86,13 @@
             </form>
         </div>
     </c:if>
+</div>
+<div class="footer-text">
+    <div>Name: ${userName}</div>
+    <div>Gryffindor: ${gryffindor}</div>
+    <div>Hufflepuff: ${hufflepuff}</div>
+    <div>Ravenclaw: ${ravenclaw}</div>
+    <div>Slytherin: ${slytherin}</div>
 </div>
 </body>
 </html>

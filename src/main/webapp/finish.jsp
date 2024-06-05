@@ -99,6 +99,14 @@
             color: rgba(255, 255, 255, 0.5);
             cursor: not-allowed;
         }
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: left;
+        }
     </style>
 </head>
 <body class="<c:choose>
@@ -130,6 +138,12 @@
         <button type="submit" class="btn btn-primary" id="startButton">Начать заново</button>
     </form>
 </div>
-
+<div class="footer-text">
+    <div>Name: ${userName}</div>
+    <div>Gryffindor: ${gryffindor}</div>
+    <div>Hufflepuff: ${hufflepuff}</div>
+    <div>Ravenclaw: ${ravenclaw}</div>
+    <div>Slytherin: ${slytherin}</div>
+</div>
 </body>
 </html>

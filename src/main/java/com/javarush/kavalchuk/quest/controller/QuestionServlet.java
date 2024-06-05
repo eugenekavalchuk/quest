@@ -1,5 +1,6 @@
 package com.javarush.kavalchuk.quest.controller;
 
+import com.javarush.kavalchuk.quest.controller.enums.Faculty;
 import com.javarush.kavalchuk.quest.controller.enums.UserServletAttribute;
 import com.javarush.kavalchuk.quest.controller.enums.UserSessionAttribute;
 import com.javarush.kavalchuk.quest.service.QuestionService;
@@ -18,6 +19,11 @@ public class QuestionServlet extends HttpServlet {
         var question = questionService.getFirstQuestion();
 
         request.setAttribute(UserSessionAttribute.QUESTION.getName(), question);
+        request.setAttribute(UserSessionAttribute.USERNAME.getName(), request.getSession().getAttribute(UserSessionAttribute.USERNAME.getName()));
+        request.setAttribute(Faculty.GRYFFINDOR.getName(), request.getSession().getAttribute(Faculty.GRYFFINDOR.getName()));
+        request.setAttribute(Faculty.HUFFLEPUFF.getName(), request.getSession().getAttribute(Faculty.HUFFLEPUFF.getName()));
+        request.setAttribute(Faculty.RAVENCLAW.getName(), request.getSession().getAttribute(Faculty.RAVENCLAW.getName()));
+        request.setAttribute(Faculty.SLYTHERIN.getName(), request.getSession().getAttribute(Faculty.SLYTHERIN.getName()));
         request.getRequestDispatcher("questions.jsp").forward(request, response);
     }
 }
